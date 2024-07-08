@@ -1,7 +1,7 @@
 name: smooth_compass_gps
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Ahmad-Ayman/smooth_compass_gps
 repository: https://github.com/Ahmad-Ayman/smooth_compass_gps
 
 environment:
