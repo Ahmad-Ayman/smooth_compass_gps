@@ -2,6 +2,7 @@ name: smooth_compass_gps
 description: "A new Flutter package project."
 version: 0.0.1
 homepage:
+repository: https://github.com/Ahmad-Ayman/smooth_compass_gps
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
@@ -30,7 +31,8 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
+  assets:
+    - assets/images/
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
