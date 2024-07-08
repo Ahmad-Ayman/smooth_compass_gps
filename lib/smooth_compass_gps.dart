@@ -1,4 +1,4 @@
-library smooth_compass_gps;
+library smooth_compass_gps_lib;
 
 import 'dart:async';
 import 'dart:io';
@@ -18,17 +18,17 @@ import 'src/compass_ui.dart';
 
 part 'src/compass_gps.dart';
 
-class Compass {
+class CompassMainGPS {
   /// Singleton instance.
-  static final Compass _instance = Compass._internal();
+  static final CompassMainGPS _instance = CompassMainGPS._internal();
 
   /// Class factory. Init the instance if was not initialized before.
-  factory Compass() {
+  factory CompassMainGPS() {
     return _instance;
   }
 
   /// Internal private constructor for the singleton.
-  Compass._internal();
+  CompassMainGPS._internal();
 
   /// Plugin instance.
   final _CompassGPS _compass = _CompassGPS();

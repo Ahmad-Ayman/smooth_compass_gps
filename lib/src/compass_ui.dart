@@ -90,10 +90,10 @@ class _SmoothCompassWidgetState extends State<SmoothCompassGPSWidget> {
         }
       });
     } else {
-      Compass().isCompassAvailable().then((isAvailable) {
+      CompassMainGPS().isCompassAvailable().then((isAvailable) {
         if (isAvailable) {
           setState(() {
-            _compassStream = Compass().compassUpdates(
+            _compassStream = CompassMainGPS().compassUpdates(
               interval: const Duration(milliseconds: 200),
               azimuthFix: 0.0,
             );
