@@ -42,10 +42,10 @@ class SmoothCompassGPSWidget extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  State<SmoothCompassGPSWidget> createState() => _SmoothCompassWidgetState();
+  State<SmoothCompassGPSWidget> createState() => _SmoothCompassGPSWidgetState();
 }
 
-class _SmoothCompassWidgetState extends State<SmoothCompassGPSWidget> {
+class _SmoothCompassGPSWidgetState extends State<SmoothCompassGPSWidget> {
   var location = Location();
   Stream<CompassModel>? _compassStream;
   double currentHeading = 0.0;
